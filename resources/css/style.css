@@ -40,12 +40,12 @@ header .nav {
 .main-content {
   padding-top: 100px;
   display: flex;
-  border: 1px solid black;
+  /*border: 1px solid black; */
   justify-content: space-around;
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  padding-bottom: 75px;
+  padding-bottom: 50px;
 }
 
 /*Large Column*/
@@ -140,3 +140,42 @@ div .story1-image {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+  /* Footer*/
+  footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  min-height: 200px;
+  align-items: center;
+  border-top: 1px solid black;
+
+  }
+
+/*Navigation section*/
+
+.footer-nav {
+  display: flex;
+ flex-direction:column;
+  width: 100%;
+  align-items: center;
+}
+.navigation {
+display: inline-flex;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+/* My Times White Logo*/
+
+.left-footer {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
